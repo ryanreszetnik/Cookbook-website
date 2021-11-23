@@ -1,0 +1,50 @@
+.card{
+    width: 150px;
+    height:150px;
+    margin:5px;
+    min-width: 150px;
+    display:flex;
+    flex-flow: column;
+}
+.small-card{
+    width: 65px;
+    height:65px;
+    margin:5px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    flex-flow: column;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.card-title{
+    font-size:16px;
+    margin-top: 0;
+    text-align: center;
+}
+.actions{
+    align-content: center;
+    flex:0 1 auto;
+}
+.content{
+    height:max-content;
+    flex:1 1 auto;
+}
+.small-content{
+    height:max-content;
+    flex:1 1 auto;
+    padding: 5px;
+}
+
+.small-card-title{
+    font-size:10px;
+    margin-top: 0;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    text-align: center;
+}
